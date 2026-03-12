@@ -1,13 +1,5 @@
-import { Controller, Get, Module } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
-@Controller()
-class AppController {
-  @Get()
-  getRootRoute() {
-    return 'hi there!';
-  }
-}
-
+import { AppController } from './app.controller';
 // create app module
 @Module({
   controllers: [AppController],
