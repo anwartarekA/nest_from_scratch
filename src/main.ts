@@ -1,6 +1,5 @@
 import { Controller, Get, Module } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
-// make app controller
 @Controller()
 class AppController {
   @Get()
